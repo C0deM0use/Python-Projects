@@ -1,0 +1,4 @@
+import os
+
+file= open("New Project.py","w+")
+#Change New project.py with whatever file namd and type you want.
