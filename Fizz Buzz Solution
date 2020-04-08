@@ -1,0 +1,11 @@
+x = range(1, 101)
+
+for y in x:
+    if y % 15 == 0:
+        print ("Fizz Buzz")
+    elif y % 3 == 0:
+        print ("Fizz")
+    elif y % 5 == 0:
+        print ("Buzz")
+    else:
+        print (y)
