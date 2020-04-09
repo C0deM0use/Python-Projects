@@ -1,0 +1,315 @@
+print("Which season?")
+import random
+Szn = (random.randrange(1,6))
+print(Szn)
+print("Which episode?")
+if Szn == 1:
+    EpsIn1 = (random.randrange(1,22))
+    print(EpsIn1)
+    if EpsIn1 == 1:
+        print("Title: Pilot")
+    if EpsIn1 == 2:
+        print("Title: The Tagger")
+    if EpsIn1 == 3:
+        print("Title: The Slump")
+    if EpsIn1 == 4:
+        print("Title: M.E. Time")
+    if EpsIn1 == 5:
+        print("Title: The Vulture")
+    if EpsIn1 == 6:
+        print("Title: Halloween")
+    if EpsIn1 == 7:
+        print("Title: 48 Hours")
+    if EpsIn1 == 8:
+        print("Title: Old School")
+    if EpsIn1 == 9:
+        print("Title: Sal's Pizza")
+    if EpsIn1 == 10:
+        print("Title: Thanksgiving")
+    if EpsIn1 == 11:
+        print("Title: Christmas")
+    if EpsIn1 == 12:
+        print("Title: Pontiac Bandit")
+    if EpsIn1 == 13:
+        print("Title: The Bet")
+    if EpsIn1 == 14:
+        print("Title: The Ebony Falcon")
+    if EpsIn1 == 15:
+        print("Title: Operation: Broken Feather")
+    if EpsIn1 == 16:
+        print("Title: The Party")
+    if EpsIn1 == 17:
+        print("Title: Full Boyle")
+    if EpsIn1 == 18:
+        print("Title: The Apartment")
+    if EpsIn1 == 19:
+        print("Title: Tactical Village")
+    if EpsIn1 == 20:
+        print("Title: Fancy Brudgom")
+    if EpsIn1 == 21:
+        print("Title: Unsolvable")
+    if EpsIn1 == 22:
+        print("Title: Charges and Specs")
+
+if Szn == 2:
+    EpsIn2 = (random.randrange(1,23))
+    print(EpsIn2)
+    if EpsIn2 == 1:
+        print("Title: Undercover")
+    if EpsIn2 == 2:
+        print("Title: Chocolate Milk")
+    if EpsIn2 == 3:
+        print("Title: The Jimmy Jab Games")
+    if EpsIn2 == 4:
+        print("Title: Halloween II")
+    if EpsIn2 == 5:
+        print("Title: The Mole")
+    if EpsIn2 == 6:
+        print("Title: Jake and Sophia")
+    if EpsIn2 == 7:
+        print("Title: Lockdown")
+    if EpsIn2 == 8:
+        print("Title: Uspis")
+    if EpsIn2 == 9:
+        print("Title: The Road Trip")
+    if EpsIn2 == 10:
+        print("Title: The Pontiac Bandit Returns")
+    if EpsIn2 == 11:
+        print("Title: Stakeout")
+    if EpsIn2 == 12:
+        print("Title: Beach House")
+    if EpsIn2 == 13:
+        print("Title: Payback")
+    if EpsIn2 == 14:
+        print("Title: Defense Rests")
+    if EpsIn2 == 15:
+        print("Title: Windbreaker City")
+    if EpsIn2 == 16:
+        print("Title: The Wednesday Incident")
+    if EpsIn2 == 17:
+        print("Title: Boyle-Linetti Wedding")
+    if EpsIn2 == 18:
+        print("Title: Captain Peralta")
+    if EpsIn2 == 19:
+        print("Title: Sabotage")
+    if EpsIn2 == 20:
+        print("Title: AC/DC")
+    if EpsIn2 == 21:
+        print("Title: Det. Dave Majors")
+    if EpsIn2 == 22:
+        print("Title: The Chopper")
+    if EpsIn2 == 23:
+        print("Title: Johnny and Dora")
+
+
+if Szn == 3:
+    EpsIn3 = (random.randrange(1,23))
+    print(EpsIn3)
+    if EpsIn3 == 1:
+        print("Title: New Captain")
+    if EpsIn3 == 2:
+        print("Title: The Funeral")
+    if EpsIn3 == 3:
+        print("Title: Boyle's Hunch")
+    if EpsIn3 == 4:
+        print("Title: The Oolong Slayer")
+    if EpsIn3 == 5:
+        print("Title: Halloween III")
+    if EpsIn3 == 6:
+        print("Title: Into the Woods")
+    if EpsIn3 == 7:
+        print("Title: The Mattress")
+    if EpsIn3 == 8:
+        print("Title: Ava")
+    if EpsIn3 == 9:
+        print("Title: The Swedes")
+    if EpsIn3 == 10:
+        print("Title: Yippie Kayak")
+    if EpsIn3 == 11:
+        print("Title: Hostage Situation")
+    if EpsIn3 == 12:
+        print("Title: 9 Days")
+    if EpsIn3 == 13:
+        print("Title: The Cruise")
+    if EpsIn3 == 14:
+        print("Title: Karen Peralta")
+    if EpsIn3 == 15:
+        print("Title: The 9-8")
+    if EpsIn3 == 16:
+        print("Title: House Mouses")
+    if EpsIn3 == 17:
+        print("Title: Addrian Pimento")
+    if EpsIn3 == 18:
+        print("Title: Cheddar")
+    if EpsIn3 == 19:
+        print("Title: Terry Kitties")
+    if EpsIn3 == 20:
+        print("Title: Paranoia")
+    if EpsIn3 == 21:
+        print("Title: Maximum Security")
+    if EpsIn3 == 22:
+        print("Title: Bureau")
+    if EpsIn3 == 23:
+        print("Title: Greg and Larry")
+
+if Szn == 4:
+    EpsIn4 = (random.randrange(1,22))
+    print(EpsIn4)
+    if EpsIn4 == 1:
+        print("Title: Coral Palms, Part 1")
+    if EpsIn4 == 2:
+        print("Title: Coral Palms, Part 2")
+    if EpsIn4 == 3:
+        print("Title: Coral Palms, Part 3")
+    if EpsIn4 == 4:
+        print("Title: The Night Shift")
+    if EpsIn4 == 5:
+        print("Title: Halloween IV")
+    if EpsIn4 == 6:
+        print("Title: Monster in the Closet")
+    if EpsIn4 == 7:
+        print("Title: Mr. Santiago")
+    if EpsIn4 == 8:
+        print("Title: Skyfire Cycle")
+    if EpsIn4 == 9:
+        print("Title: The Overmining")
+    if EpsIn4 == 10:
+        print("Title: Captain Latvia")
+    if EpsIn4 == 11:
+        print("Title: The Fugitive, Part 1")
+    if EpsIn4 == 12:
+        print("Title: The Fugitive, Part 2")
+    if EpsIn4 == 13:
+        print("Title: The Audit")
+    if EpsIn4 == 14:
+        print("Title: Serve & Protect")
+    if EpsIn4 == 15:
+        print("Title: The Last Ride")
+    if EpsIn4 == 16:
+        print("Title: Moo Moo")
+    if EpsIn4 == 17:
+        print("Title: Cop Con")
+    if EpsIn4 == 18:
+        print("Title: Chasing Amy")
+    if EpsIn4 == 19:
+        print("Title: Your Honor")
+    if EpsIn4 == 20:
+        print("Title: The Slaughterhouse")
+    if EpsIn4 == 21:
+        print("Title: The Bank Job")
+    if EpsIn4 == 22:
+        print("Title: Crime & Punishment")
+
+if Szn == 5:
+    EpsIn5 = (random.randrange(1,18))
+    print(EpsIn5)
+    if EpsIn5 == 1:
+        print("Title: The Big House, Part 1")
+    if EpsIn5 == 2:
+        print("Title: The Big House, Part 2")
+    if EpsIn5 == 3:
+        print("Title: Kicks")
+    if EpsIn5 == 4:
+        print("Title: HalloVeen")
+    if EpsIn5 == 5:
+        print("Title: Bad Bet")
+    if EpsIn5 == 6:
+        print("Title: The Venue")
+    if EpsIn5 == 7:
+        print("Title: Two Turkeys")
+    if EpsIn5 == 8:
+        print("Title: Return to Skyfire")
+    if EpsIn5 == 9:
+        print("Title: 99")
+    if EpsIn5 == 10:
+        print("Title: Game Night")
+    if EpsIn5 == 11:
+        print("Title: The Favor")
+    if EpsIn5 == 12:
+        print("Title: Safe House")
+    if EpsIn5 == 13:
+        print("Title: The Negotiation")
+    if EpsIn5 == 14:
+        print("Title: The Box")
+    if EpsIn5 == 15:
+        print("Title: The Puzzle Master")
+    if EpsIn5 == 16:
+        print("Title: Nutriboom")
+    if EpsIn5 == 17:
+        print("Title: DFW")
+    if EpsIn5 == 18:
+        print("Title: Gray Star Mutual")
+    if EpsIn5 == 19:
+        print("Title: Bachelor/ette Party")
+    if EpsIn5 == 20:
+        print("Title: Show Me Going")
+    if EpsIn5 == 21:
+        print("Title: White Whale")
+    if EpsIn5 == 22:
+        print("Title: Jake & Amy")
+
+if Szn == 6:
+    EpsIn6 = (random.randrange(1,18))
+    print(EpsIn6)
+    if EpsIn6 == 1:
+        print("Title: Honeymoon")
+    if EpsIn6 == 2:
+        print("Title: Hitchock & Scully")
+    if EpsIn6 == 3:
+        print("Title: The Tattler")
+    if EpsIn6 == 4:
+        print("Title: Four Movements")
+    if EpsIn6 == 5:
+        print("Title: A Tale of Two Bandits")
+    if EpsIn6 == 6:
+        print("Title: The Crime Scene")
+    if EpsIn6 == 7:
+        print("Title: The Honeypot")
+    if EpsIn6 == 8:
+        print("Title: He Said, She Said")
+    if EpsIn6 == 9:
+        print("Title: The Golden Child")
+    if EpsIn6 == 10:
+        print("Title: Gintars")
+    if EpsIn6 == 11:
+        print("Title: The Therapist")
+    if EpsIn6 == 12:
+        print("Title: Casecation")
+    if EpsIn6 == 13:
+        print("Title: The Bimbo")
+    if EpsIn6 == 14:
+        print("Title: Ticking Clocks")
+    if EpsIn6 == 15:
+        print("Title: Return of the King")
+    if EpsIn6 == 16:
+        print("Title: Cinco de Mayo")
+    if EpsIn6 == 17:
+        print("Title: Sicko")
+    if EpsIn6 == 18:
+        print("Title: Suicide Squad")
+
+if Szn == 7:
+    EpsIn7 = (random.randrange(1,11))
+    print(EpsIn7)
+    if EpsIn7 == 1:
+        print("Title: Manhunter")
+    if EpsIn7 == 2:
+        print("Title: Captain Kim")
+    if EpsIn7 == 3:
+        print("Title: Pimemento")
+    if EpsIn7 == 4:
+        print("Title: The Jimmy Jab Games II")
+    if EpsIn7 == 5:
+        print("Title: Debbie")
+    if EpsIn7 == 6:
+        print("Title: Trying")
+    if EpsIn7 == 7:
+        print("Title: Ding Dong")
+    if EpsIn7 == 8:
+        print("Title: The Takeback")
+    if EpsIn7 == 9:
+        print("Title: Dillman")
+    if EpsIn7 == 10:
+        print("Title: Admiral Peralta")
+    if EpsIn7 == 11:
+        print ("Title: Valloweaster")
