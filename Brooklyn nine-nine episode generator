@@ -1,10 +1,10 @@
 print("Which season?")
 import random
-Szn = (random.randrange(1,7))
+Szn = (random.randrange(1,8))
 print(Szn)
 print("Which episode?")
 if Szn == 1:
-    EpsIn1 = (random.randrange(1,22))
+    EpsIn1 = (random.randrange(1,23))
     print(EpsIn1)
     if EpsIn1 == 1:
         print("Title: Pilot")
@@ -52,7 +52,7 @@ if Szn == 1:
         print("Title: Charges and Specs")
 
 if Szn == 2:
-    EpsIn2 = (random.randrange(1,23))
+    EpsIn2 = (random.randrange(1,24))
     print(EpsIn2)
     if EpsIn2 == 1:
         print("Title: Undercover")
@@ -103,7 +103,7 @@ if Szn == 2:
 
 
 if Szn == 3:
-    EpsIn3 = (random.randrange(1,23))
+    EpsIn3 = (random.randrange(1,24))
     print(EpsIn3)
     if EpsIn3 == 1:
         print("Title: New Captain")
@@ -153,7 +153,7 @@ if Szn == 3:
         print("Title: Greg and Larry")
 
 if Szn == 4:
-    EpsIn4 = (random.randrange(1,22))
+    EpsIn4 = (random.randrange(1,23))
     print(EpsIn4)
     if EpsIn4 == 1:
         print("Title: Coral Palms, Part 1")
@@ -201,7 +201,7 @@ if Szn == 4:
         print("Title: Crime & Punishment")
 
 if Szn == 5:
-    EpsIn5 = (random.randrange(1,18))
+    EpsIn5 = (random.randrange(1,19))
     print(EpsIn5)
     if EpsIn5 == 1:
         print("Title: The Big House, Part 1")
@@ -249,7 +249,7 @@ if Szn == 5:
         print("Title: Jake & Amy")
 
 if Szn == 6:
-    EpsIn6 = (random.randrange(1,18))
+    EpsIn6 = (random.randrange(1,19))
     print(EpsIn6)
     if EpsIn6 == 1:
         print("Title: Honeymoon")
@@ -289,7 +289,7 @@ if Szn == 6:
         print("Title: Suicide Squad")
 
 if Szn == 7:
-    EpsIn7 = (random.randrange(1,11))
+    EpsIn7 = (random.randrange(1,14))
     print(EpsIn7)
     if EpsIn7 == 1:
         print("Title: Manhunter")
@@ -317,4 +317,3 @@ if Szn == 7:
         print("Title: Ransom")
     if EpsIn7 == 13:
         print("Title: Blackout")
- 
