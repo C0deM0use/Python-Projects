@@ -1,6 +1,6 @@
 print("Which season?")
 import random
-Szn = (random.randrange(1,6))
+Szn = (random.randrange(1,7))
 print(Szn)
 print("Which episode?")
 if Szn == 1:
@@ -313,3 +313,4 @@ if Szn == 7:
         print("Title: Admiral Peralta")
     if EpsIn7 == 11:
         print ("Title: Valloweaster")
+ 
