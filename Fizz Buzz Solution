@@ -6,6 +6,6 @@ for y in x:
     elif y % 3 == 0:
         print ("Fizz")
     elif y % 5 == 0:
-        print ("Buz")
+        print ("Buzz")
     else:
         print (y)
