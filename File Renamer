@@ -1,4 +1,4 @@
 import os
 
 os.rename('D:\Location\\New Text Document.txt', 'D:\Location\\New Project.py')
-#change location to where you're going to rename files.
+#remember to change the location and file types
